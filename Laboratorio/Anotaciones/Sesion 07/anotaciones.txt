@@ -1,0 +1,4 @@
+Find --> FirstOrDefault
+Filter --> Where
+Map --> Select
+Reduce --> Aggregate

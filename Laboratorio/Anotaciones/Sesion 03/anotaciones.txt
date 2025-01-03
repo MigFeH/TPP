@@ -1,0 +1,75 @@
+
+para que sea extensor tiene que ser static y poner el parametro this
+
+
+un tipo con interrogante (en la cabecera) admite los valores normales del tipo y el null
+
+metodo que devuelve algo => lo llamamos función
+metodo que devuelve booleano => lo llamamos predicado
+metodo que no devuelve nada => lo llamamos procedimiento
+
+
+Una interfaz siempre empieza con una I en su nombre.
+
+
+Al pasar a modo release no se ejecutan los assertos y se aplican optimizaciones de velocidad (de normal) o memoria sobre el codigo fuente.
+
+Los assertos son para la programación por contrato
+
+
+el stack compone (rombo relleno) [agregacion (rondo vacío)] una lista. A partir de una lista hacer un stack
+
+
+Programar ahora teniendo en cuenta postcondiciones
+
+PRECONDICIONES: Un if y lanza excepción
+POSTCONDICIONES: Un if y usar assertos
+
+precondiciones
+	excepciones
+invariantes
+	assertos
+codigo
+invariantes (si lista esta vacia los num de elementos lleno) (si el stack está vacia no está llena, o esta no vacia y no llena)
+	assertos
+postcondiciones
+	assertos
+
+para las invariantes hacer funcion check con todos los assertos
+
+
+Ejercicio:
+Hacer un stack compuesto por una lista
+
+conjunto compone lista (no es herencia)
+
+Stack
+constructor:
+	precondicion: si fuera int hay que comprobar si es negativo
+	invariante: no hace falta porque aun no creaste un stack aun (aun no tienes un estado logico "activado")
+	
+	invariante: chequar si tiene un estado valido
+	postcondiciones:
+
+push:
+	precondicion: que no sea objeto null o stack no lleno
+	invariante: que no esté lleno y vacio. que si esta lleno el stack que sea maxnumber of elements. Que tenga un estado logico
+
+	postcondiciones: que no esté vacío, que haya mas elementos
+
+pop:
+	precondicion: que no esté vacía
+
+	post: que si estaba llena pues ahora que no lo esté
+
+
+
+Agregación (rombo vacío): un cliente puede ser cliente sin que exista una tienda (creamos los objetos cliente pasandolos como parámetro a un objeto tienda).
+
+	La clase a la que apunta el rombo (el TODO) es la que va a almacenar los objetos de la otra clase que relaciona (la clase PARTE).
+
+Composición (rombo relleno): una silla no puede ser silla sin sus patas.
+	Las patas son un atributo de la clase silla y se crean en la propia clase silla.
+	
+
+

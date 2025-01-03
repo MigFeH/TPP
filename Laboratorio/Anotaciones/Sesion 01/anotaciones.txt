@@ -1,0 +1,48 @@
+Primer parcial practico en la sesion 9
+
+Solucion: agrupacion de proyectos
+A las soluciones les llamamos Laboratorio 1, laboratorio 2, etc
+A los proyectos les llamo con el nombre del proyecto
+
+buscamos en blanco en el buscador al crear un proyecto
+
+click derecho, agregar proyecto, aplicación de consola 
+(LA QUE PONE .NET NO, LA QUE ES MULTIPLATAFORMA)
+
+Usamos la .NET 5.0 SIEMPRE
+
+
+
+
+namespace: agrupar clases pertenecientes a un mismo mundo
+con el using usamos los metodos de un namespace distinto
+
+comentar con javadoc(/**) mediante xml: /// 
+
+compilar: hace una compilacion de la diferencia de la ultima compilacion
+recompilar: limpia todo y hace una compilacion completa (hacerlo si todo falla)
+
+
+uint: entero de 32 bits 
+ulong: entero de mas de 32 bits
+
+
+biblioteca de clase (dll): los ficheros dll (dynamic loading library) es codigo sin un main
+
+dos proyectos deben tener el mismo namespace (si estamos en la misma solucion, sino usamos el using (es el import de java)) para poder conectarlos y que se usen entre ellos
+la aplicacion es la que le asignamos la dll
+
+internal: accesible en el mismo fichero (en un mismo dll o fichero)
+
+assembly: hace referencia a cada de uno de los ficheros
+
+clase TO (transfer object): clase contenedora de datos (solo tiene setters y getters)
+
+Con las propiedades { get; set; } no necesitamos que hacer constructores
+
+
+
+
+
+
+

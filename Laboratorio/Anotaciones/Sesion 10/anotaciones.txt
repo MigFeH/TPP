@@ -1,0 +1,17 @@
+metodo async devuelve una Task (antes del return se hace un await Task.delay(delay) /* la tarea espera a que se acabe el delay antes de devolver */) o void
+
+capturamos las excepciones ocurridas en una task (hacemos un catch con AggregateException aunque no se lance esa excepcion)
+
+
+lo ideal es tener un objeto especificamente para el lock
+
+private static readmonly onject objetoBloqueo = new object();
+
+
+ReaderWritterLockSlim: para el bloqueo en estructuras complejas
+	Lectura: bloqueamos el recurso pero el resto de hilos pueden leer el objeto. No se puede escribir
+	Escritura: sólo un hilo está bloqueando. Ningun hilo puede leer ni escribir
+	Lectura Actualizable: un hilo en ese modo está en lectura y, si ve que necesita escribir, puede pasar a escritura sin liberar el bloqueo (no pierde la posicion en la cola de hilos ejecutandose concurrentemente)
+
+
+	

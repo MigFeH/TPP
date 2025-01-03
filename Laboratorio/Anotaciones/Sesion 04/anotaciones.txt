@@ -1,0 +1,19 @@
+cambiar la lista de polimorfica a generica (cambiar el object a T)
+
+la lista tiene que tener un getEnumerator que ye para hacer un foreach
+(Toda coleccion debe implementar Enumerator)
+
+con IDisposable podemos encadenar los metodos que liberan los recursos (el destructor de un coche, de sus ruedas, sus piezas, etc)
+	Para ello llamamos explicitamente al metodo Dispose
+	SU USO ES PARA COMPOSICION
+
+
+
+
+
+
+
+
+
+
+

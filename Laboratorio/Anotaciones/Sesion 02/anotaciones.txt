@@ -1,0 +1,21 @@
+para operar con referencias usamos como tipo de dato ref (nos evita el uso de punteros y hacen el mismo funcionamiento)
+
+ref => lectura por referencia
+out => escritura por referencia (la variable no necesita ser inicializada en este caso)
+
+clase estática => conjunto de utilidades
+
+para hacer una extension de una clase:
+	1º) la clase del método que va a extender a la clase como String sebe ser estática
+	2º) método que extiende debe ser estático
+	3º) prámetro con la palabra reservada this antes del tipo de dato del parámetro
+
+
+buscamos unit
+	MSTest
+
+
+HACER EL EJERCICIO OPCIONAL
+un conjunto no admite repetidos y no tiene un orden
+IMPLEMENTARLO CON UN ARRAY
+

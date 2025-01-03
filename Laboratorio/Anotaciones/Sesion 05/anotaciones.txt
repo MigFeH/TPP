@@ -1,0 +1,31 @@
+Func<double, double> f // funcion f que recibe double y devuelve double
+Predicate<double> p // predicado p que recibe double y devuelve bool
+Action<double> a // accion a que recibe double y devuelve void (causa efectos secundarios en el entorno)
+
+
+lambda x. x*x // es x => x*x
+
+Find: es el indexOf2
+
+filter: dado coleccion de elementos y predicado => filtra la coleccion con los elementos que cumplen el predicado
+
+reduce: 
+
+def Sum(xs):
+  ACC = 0
+  for x in xs:
+    ACC += x
+  return ACC
+
+def Mul(xs):
+  ACC = 1
+  for x in xs:
+    ACC *= x
+  return ACC
+
+Sum = Reduce(xs, (x,ACC) => ACC+x, 0) // siendo el 0 el valor inicial
+Mul = Reduce(xs, (x,ACC) => ACC*x, 1) // siendo el 1 el valor inicial
+
+
+
+

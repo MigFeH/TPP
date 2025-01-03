@@ -1,0 +1,28 @@
+metemos el diccionario en el valor por defecto del acumulador
+
+
+
+closure: funcion cerrada a un contexto, dicho contexto hace el cierre transitivo de la funcion
+una funcion flota por si misma sin un ambito ni contexto
+
+
+closures y objetos representan lo mismo
+	objeto: conjunto datos asociados a unos metodos que permiten interactuar con ellos
+	closure: funcion asociada a un conjunto de datos (lo mismo que un objeto pero al revés)
+
+
+mutar el estado de algo => es un efecto secundario
+
+funcion pura (tiene transparencia referencia: donde ves un añadir 2+2 puedes poner un 4 y obtener lo mismo sin ejecutar la funcion; a la funcion random no se aplica porque no es posible sustituir el valor que devuelve porque no es determinista) (sin efectos colaterales) => puede usar memorizacion porque no hace efectos secundarios por la inmutabilidad
+funcion no pura => hace efectos secundarios (mutable) => no se puede usar memorizacion
+
+
+
+
+
+
+
+
+
+
+

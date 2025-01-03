@@ -1,0 +1,13 @@
+- dos puntos LINQ (lo que haremos hoy)
+- a saber
+- funcional
+
+- hay que entregar la practica 7 (la lista) y pueden pedir usarla
+- la actividad 2 de la sesion 7 NADA DE LINQ, TIENE QUE SER IMPLEMENTACION PROPIA
+
+selectMany: si tenemos una lista de listas nos selecciona la lista de listas como una sola lista
+
+
+EL GROUP BY ES LO ULTIMO QUE SE HACE 
+
+

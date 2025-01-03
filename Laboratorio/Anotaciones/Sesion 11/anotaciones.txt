@@ -1,0 +1,25 @@
+el objeto con el que bloqueas debe ser estatico, de clase, 
+NO SE INICIALIZA EN UN CONSTRUCTOR
+
+
+
+el codigo en el examen tendrá condiciones de carrera y hay 
+que saber detectarla y solucionarla
+
+
+
+no usamos el master/worker cuando el tamaño del problema 
+aunmenta en el tiempo. Para ello usamos el productor/consumidor
+
+Productor: encola
+Consumidor: desencola y computa
+
+NUNCA UN WHILE DENTRO DE UN LOCK
+
+
+EVITAR EL USO DE AWAIT Y ASYNC
+
+param => le pasas un numero variable de parametros y lo trata
+como un array
+
+
