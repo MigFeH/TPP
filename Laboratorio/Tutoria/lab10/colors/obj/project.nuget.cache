@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9bah1LxWPyCCR+0djD2/ltbIl2RFb0EIobhNTnsqtM7chXDKVYYSUjeK7ehk9H5H+P4SIHmUHKC76EFiWDL5HQ==",
+  "success": true,
+  "projectFilePath": "F:\\Clase\\Segundo semestre\\TPP\\Laboratorio\\Tutoria\\lab10\\colors\\colors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

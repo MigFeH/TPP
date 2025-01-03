@@ -1,0 +1,14 @@
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\bin\Debug\net5.0\summation.exe
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\bin\Debug\net5.0\summation.deps.json
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\bin\Debug\net5.0\summation.runtimeconfig.json
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\bin\Debug\net5.0\summation.runtimeconfig.dev.json
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\bin\Debug\net5.0\summation.dll
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\bin\Debug\net5.0\summation.pdb
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\summation.csproj.AssemblyReference.cache
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\summation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\summation.csproj.CoreCompileInputs.cache
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\summation.dll
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\refint\summation.dll
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\summation.pdb
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\summation.genruntimeconfig.cache
+D:\Clase\Segundo semestre\TPP\Laboratorio\Tutoria\lab10\summation\obj\Debug\net5.0\ref\summation.dll
